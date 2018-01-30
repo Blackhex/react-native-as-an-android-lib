@@ -14,7 +14,7 @@ public class MyApplication extends Application implements ReactApplication {
 
     private final ReactNativeHost reactNativeHost = new ReactNativeHost(this) {
         @Override
-        protected boolean getUseDeveloperSupport() {
+        public boolean getUseDeveloperSupport() {
             return BuildConfig.DEBUG;
         }
 
